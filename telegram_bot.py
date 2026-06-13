@@ -1,4 +1,5 @@
-import logging
+import os
+BOT_TOKEN = os.environ.get("BOT_TOKEN")import logging
 import requests
 import os
 from telegram import Update
